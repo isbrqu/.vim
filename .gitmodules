@@ -1,0 +1,21 @@
+[submodule "pack/907th/vim-auto-save/start"]
+	path = pack/907th/vim-auto-save/start
+	url = https://github.com/907th/vim-auto-save.git
+[submodule "pack/junegunn/fzf.vim/start"]
+	path = pack/junegunn/fzf.vim/start
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/maralla/completor.vim/start"]
+	path = pack/maralla/completor.vim/start
+	url = https://github.com/maralla/completor.vim.git
+[submodule "pack/mboughaba/i3config.vim/start"]
+	path = pack/mboughaba/i3config.vim/start
+	url = https://github.com/mboughaba/i3config.vim.git
+[submodule "pack/tpope/vim-commentary/start"]
+	path = pack/tpope/vim-commentary/start
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "pack/tpope/vim-eunuch/start"]
+	path = pack/tpope/vim-eunuch/start
+	url = https://github.com/tpope/vim-eunuch.git
+[submodule "pack/tpope/vim-fugitive/start"]
+	path = pack/tpope/vim-fugitive/start
+	url = https://github.com/tpope/vim-fugitive.git
