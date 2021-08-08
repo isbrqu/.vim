@@ -153,14 +153,25 @@ tnoremap <f1> <c-w>N
 " switch command-line
 tnoremap <f4> <c-w>:
 
+" -- disable --
+" let g:loaded_zipPlugin = 1
+" let g:loaded_2html_plugin = 1
+" let g:loaded_netrwPlugin = 1
+" let g:loaded_matchparen = 1
+" let g:loaded_getscriptPlugin = 1
+" let g:loaded_logiPat = 1
+" let g:loaded_rrhelper = 1
+" let g:loaded_spellfile_plugin = 1
+" let g:loaded_tarPlugin = 1
+" let g:loaded_vimballPlugin = 1
+
 " -- runtimepath --
-set runtimepath+=$DOT_PATH/vim
+set runtimepath^=$DOT_PATH/vim
 set runtimepath+=$XDG_DATA_HOME/vim
 set runtimepath+=$DOT_PATH/vim/after
-set runtimepath+=$DOT_PATH/fzf
 set runtimepath+=$HOME/.local/bin
 
-set packpath+=$XDG_DATA_HOME/vim
+set packpath^=$XDG_DATA_HOME/vim
 set packpath+=$DOT_PATH/vim
 set packpath+=$DOT_PATH/vim/after
 set packpath+=$XDG_DATA_HOME/vim/after
