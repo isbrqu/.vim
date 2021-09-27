@@ -19,3 +19,9 @@
 [submodule "pack/tpope/start/vim-fugitive"]
 	path = pack/tpope/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "pack/junegunn/start/goyo.vim"]
+	path = pack/junegunn/start/goyo.vim
+	url = https://github.com/junegunn/goyo.vim.git
+[submodule "pack/raimondi/start/delimit-mate"]
+	path = pack/raimondi/start/delimit-mate
+	url = https://github.com/Raimondi/delimitMate.git
