@@ -16,7 +16,7 @@ declare folder
 for line in "${plugins[@]}";do
 	read -r dns own name <<< "$line"
 	url="https://$dns/$own/$name.git"
-	folder="pack/$own/$name/start"
+	folder="pack/$own/start/$name"
 	# mkdir --parents "$folder"
 	git submodule add -- "$url" "$folder"
 done
