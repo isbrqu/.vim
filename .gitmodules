@@ -25,3 +25,9 @@
 [submodule "pack/raimondi/start/delimit-mate"]
 	path = pack/raimondi/start/delimit-mate
 	url = https://github.com/Raimondi/delimitMate.git
+[submodule "pack/jceb/start/vim-orgmode"]
+	path = pack/jceb/start/vim-orgmode
+	url = https://github.com/jceb/vim-orgmode.git
+[submodule "pack/tpope/start/speeddating"]
+	path = pack/tpope/start/speeddating
+	url = https://tpope.io/vim/speeddating.git
