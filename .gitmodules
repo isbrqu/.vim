@@ -31,3 +31,6 @@
 [submodule "pack/tpope/start/speeddating"]
 	path = pack/tpope/start/speeddating
 	url = https://tpope.io/vim/speeddating.git
+[submodule "pack/nikvdp/start/ejs-syntax"]
+	path = pack/nikvdp/start/ejs-syntax
+	url = https://github.com/nikvdp/ejs-syntax.git
