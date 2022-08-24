@@ -1,12 +1,3 @@
-[submodule "pack/907th/start/vim-auto-save"]
-	path = pack/907th/start/vim-auto-save
-	url = https://github.com/907th/vim-auto-save.git
-[submodule "pack/junegunn/start/fzf.vim"]
-	path = pack/junegunn/start/fzf.vim
-	url = https://github.com/junegunn/fzf.vim.git
-[submodule "pack/maralla/start/completor.vim"]
-	path = pack/maralla/start/completor.vim
-	url = https://github.com/maralla/completor.vim.git
 [submodule "pack/mboughaba/start/i3config.vim"]
 	path = pack/mboughaba/start/i3config.vim
 	url = https://github.com/mboughaba/i3config.vim.git
@@ -19,18 +10,9 @@
 [submodule "pack/tpope/start/vim-fugitive"]
 	path = pack/tpope/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "pack/junegunn/start/goyo.vim"]
-	path = pack/junegunn/start/goyo.vim
-	url = https://github.com/junegunn/goyo.vim.git
 [submodule "pack/raimondi/start/delimit-mate"]
 	path = pack/raimondi/start/delimit-mate
 	url = https://github.com/Raimondi/delimitMate.git
-[submodule "pack/jceb/start/vim-orgmode"]
-	path = pack/jceb/start/vim-orgmode
-	url = https://github.com/jceb/vim-orgmode.git
 [submodule "pack/tpope/start/speeddating"]
 	path = pack/tpope/start/speeddating
 	url = https://tpope.io/vim/speeddating.git
-[submodule "pack/nikvdp/start/ejs-syntax"]
-	path = pack/nikvdp/start/ejs-syntax
-	url = https://github.com/nikvdp/ejs-syntax.git
