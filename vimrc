@@ -49,6 +49,8 @@ highlight ColorColumn ctermbg=16 guibg=lightgrey
 
 " Highlight the text line of the cursor with CursorLine
 autocmd InsertEnter,InsertLeave * set cursorline!
+set nobackup
+set noswapfile
 
 " -- tab --
 set tabstop=8
