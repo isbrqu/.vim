@@ -1,1 +1,3 @@
-let g:netrw_home = $XDG_DATA_HOME."/vim"
+" netrw config
+let g:netrw_browsex_viewer="start"
+
