@@ -100,17 +100,6 @@ nnoremap <silent> <left> :bn<cr>
 nnoremap <silent> <right> :bN<cr>
 nnoremap <silent> <leader>l :bn<cr>
 nnoremap <silent> <leader>h :bN<cr>
-" search
-nnoremap <silent> <leader><leader> :FZF<cr>
-nnoremap <silent> <leader>ff :Files<cr>
-nnoremap <silent> <leader>fc :Commits<cr>
-nnoremap <silent> <leader>fb :Buffers<cr>
-nnoremap <silent> <leader>fw :Windows<cr>
-nnoremap <silent> <leader>fh :Helptags<cr>
-nnoremap <silent> <leader>ft :BTags<cr>
-nnoremap <silent> <leader>fs :Rl ^#+ -+ .+ -+$<cr>
-nnoremap <silent> <leader>fS :Rg ^(#+\|"\|//) -+ .+ -+$<cr>
-nnoremap <silent> <leader>fl :BLines<esc>
 " settings
 nnoremap <silent> <f1> :edit $DOT_PATH/vim/vimrc<cr>
 nnoremap <silent> <leader>/ :nohlsearch<cr>
@@ -118,11 +107,6 @@ nnoremap <silent> <leader>/ :nohlsearch<cr>
 nnoremap <silent> <leader>e :edit<cr>
 " yank
 nnoremap <leader>y ggyG
-" manual
-nnoremap <leader>m :MyManual<space>
-
-" -- netrw --
-nnoremap <silent> <leader>- :Vexplore<cr>
 
 " -- browser --
 nnoremap <silent> <leader>x "uyiW:call system('xdg-open <c-r>u &')<cr>
@@ -130,10 +114,6 @@ nnoremap <silent> <leader>x "uyiW:call system('xdg-open <c-r>u &')<cr>
 " -- insert --
 " disable
 inoremap <f1> <nop>
-" autocomplete
-inoremap <expr> <tab> pumvisible() ? "\<c-n>" : "\<tab>"
-inoremap <expr> <s-tab> pumvisible() ? "\<c-p>" : "\<s-tab>"
-inoremap <expr> <cr> pumvisible() ? "\<c-y>" : "\<cr>"
 
 " -- replace --
 " simple replace

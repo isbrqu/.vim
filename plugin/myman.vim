@@ -9,3 +9,6 @@ function! MyManual(pagebro)
     setlocal nomodifiable
 endfunction
 
+
+" manual
+nnoremap <leader>m :MyManual<space>
