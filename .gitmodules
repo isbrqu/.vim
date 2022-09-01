@@ -19,3 +19,6 @@
 [submodule "pack/alvan/start/vim-closetag"]
 	path = pack/alvan/start/vim-closetag
 	url = https://github.com/alvan/vim-closetag
+[submodule "pack/joukevandermaas/start/vim-ember-hbs"]
+	path = pack/joukevandermaas/start/vim-ember-hbs
+	url = https://github.com/joukevandermaas/vim-ember-hbs
