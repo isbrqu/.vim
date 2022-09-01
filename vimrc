@@ -51,6 +51,9 @@ highlight ColorColumn ctermbg=16 guibg=lightgrey
 autocmd InsertEnter,InsertLeave * set cursorline!
 set nobackup
 set noswapfile
+" -- undo --
+set noundofile
+
 
 " -- tab --
 set tabstop=8
@@ -60,9 +63,6 @@ set shiftwidth=4
 " -- use space --
 set expandtab
 set autoindent
-
-" -- undo --
-set undofile
 
 set history=6
 

@@ -16,3 +16,24 @@
 [submodule "pack/tpope/start/speeddating"]
 	path = pack/tpope/start/speeddating
 	url = https://tpope.io/vim/speeddating.git
+[submodule "pack/mattn/start/emmet-vim"]
+	path = pack/mattn/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim
+[submodule "pack/alvan/start/vim-closetag"]
+	path = pack/alvan/start/vim-closetag
+	url = https://github.com/alvan/vim-closetag
+[submodule "pack/tpope/start/commentary"]
+	path = pack/tpope/start/commentary
+	url = https://tpope.io/vim/commentary.git
+[submodule "pack/tpope/start/fugitive"]
+	path = pack/tpope/start/fugitive
+	url = https://tpope.io/vim/fugitive.git
+[submodule "pack/tpope/start/eunuch"]
+	path = pack/tpope/start/eunuch
+	url = https://tpope.io/vim/eunuch.git
+[submodule "pack/raimondi/start/delimitMate"]
+	path = pack/raimondi/start/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "pack/joukevandermaas/start/vim-ember-hbs"]
+	path = pack/joukevandermaas/start/vim-ember-hbs
+	url = https://github.com/joukevandermaas/vim-ember-hbs
