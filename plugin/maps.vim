@@ -1,3 +1,5 @@
+let mapleader=' '
+
 " write, refresh and quit
 nnoremap <silent> <leader>w :write<cr>
 nnoremap <silent> <leader>s :write<cr>
