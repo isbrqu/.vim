@@ -1,3 +1,30 @@
+setlocal expandtab
+setlocal tabstop=2
+setlocal softtabstop=2
+setlocal shiftwidth=2
+
+setlocal foldmethod=indent
+setlocal foldlevel=1
+setlocal foldnestmax=2
+setlocal foldlevelstart=2
+" let &l:foldlevel = indent('.') / &shiftwidth
+setlocal foldminlines=0
+
+function! NeatFoldText()
+    let line = ' ' . substitute(getline(v:foldstart), '^\s*"\?\s*\|\s*"\?\s*{{' . '{\d*\s*', '', 'g') . ' '
+    let lines_count = v:foldend - v:foldstart + 1
+    " let lines_count_text = '| ' . printf("%10s", lines_count . ' lines') . ' |'
+    let lines_count_text = '[' . lines_count . ']'
+    let foldchar = matchstr(&fillchars, 'fold:\zs.')
+    let foldtextstart = strpart('+' . repeat(foldchar, v:foldlevel*2) . line, 0, (winwidth(0)*2)/3)
+    let foldtextend = lines_count_text . repeat(foldchar, 8)
+    let foldtextlength = strlen(substitute(foldtextstart . foldtextend, '.', 'x', 'g')) + &foldcolumn
+    " return foldtextstart . repeat(foldchar, winwidth(0)-foldtextlength) . foldtextend
+    return repeat(' ', v:foldlevel * 2) . lines_count_text
+endfunction
+
+setlocal foldtext=NeatFoldText()
+
 iabbrev <silent> <buffer> sysout System.out.println();<left><left><c-r>=Eatchar('\s')<cr>
 
 iabbrev <silent> <buffer> pvm public void nameMethod() {<cr>}<up><c-r>=Eatchar('\s')<cr><esc>o
@@ -43,3 +70,5 @@ endfunction
 
 nnoremap <buffer> <leader>o :call JavaRun()<cr>
 tnoremap <silent> Q :q!<cr>
+
+
