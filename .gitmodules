@@ -22,3 +22,6 @@
 [submodule "pack/joukevandermaas/start/vim-ember-hbs"]
 	path = pack/joukevandermaas/start/vim-ember-hbs
 	url = https://github.com/joukevandermaas/vim-ember-hbs
+[submodule "pack/ctrlpvim/start/ctrlp.vim"]
+	path = pack/ctrlpvim/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
