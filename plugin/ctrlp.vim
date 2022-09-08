@@ -3,3 +3,4 @@ set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 set wildignore+=*.class
 set wildignore+=*/build/*
 set wildignore+=*/bin/*
+set wildignore+=*/node_modules/*
