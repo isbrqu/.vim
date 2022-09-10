@@ -56,19 +56,12 @@ iabbrev <silent> <buffer> stra private String ;<left><c-r>=Eatchar('\s')<cr>
 iabbrev <silent> <buffer> boola private boolean ;<left><c-r>=Eatchar('\s')<cr>
 iabbrev <silent> <buffer> obja private Object ;<left><c-r>=Eatchar('\s')<cr>
 
-function! JavaRun()
-    " tab terminal ++close ++kill="SIGKILL" bash -c "javarun"
-    " let l:command = 'echo "@clear" > /tmp/listening-pipe'
-    " let l:result = system(l:command)
-    " let l:command = 'javarun &> /tmp/listening-pipe'
+function! s:Run()
     let l:subcommand = '"javarun ' . g:main_script . '"'
     let l:command = '"C:/Program Files/Git/bin/bash.exe" -c ' . l:subcommand
     let l:command = 'wt -w 0 new-tab -- ' . l:command
     call system(l:command)
-    " echo "Finish!"
 endfunction
 
-nnoremap <buffer> <leader>o :call JavaRun()<cr>
-tnoremap <silent> Q :q!<cr>
-
+nnoremap <buffer> <leader>o :call <sid>Run()<cr>
 
