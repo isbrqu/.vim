@@ -63,5 +63,10 @@ function! s:Run()
     call system(l:command)
 endfunction
 
-nnoremap <buffer> <leader>o :call <sid>Run()<cr>
+function! s:SearchFunctions()
+  execute('g/\(public\|private\)')
+endfunction
+
+nnoremap <silent> <buffer> <leader>o :call <sid>Run()<cr>
+nnoremap <silent> <buffer> <leader>f :call <sid>SearchFunctions()<cr>
 
