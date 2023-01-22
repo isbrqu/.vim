@@ -32,6 +32,7 @@ function! OpenAndMoveId()
     call MoveId(l:category)
 endfunction
 
-nnoremap <leader>o :call OpenPost()<cr>
-nnoremap <silent> <leader>m :call OpenAndMoveId()<cr>
+nnoremap <buffer> <leader>o :call OpenPost()<cr>
+nnoremap <buffer> <leader>m :call OpenAndMoveId()<cr>
+
 

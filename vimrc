@@ -24,7 +24,8 @@ set visualbell
 set nowrap
 
 set cursorline
-set colorcolumn=80
+set colorcolumn=70
+set textwidth=70
 
 set number
 set relativenumber
