@@ -28,3 +28,7 @@ set colorcolumn=80
 
 set number
 set relativenumber
+
+" fugitive? no problem...
+set autoread
+
