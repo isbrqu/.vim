@@ -26,6 +26,9 @@ endfunction
 setlocal foldtext=NeatFoldText()
 
 iabbrev <silent> <buffer> sysout System.out.println();<left><left><c-r>=Eatchar('\s')<cr>
+iabbrev <silent> <buffer> main public class Main {<cr><cr><c-i>public static void main(String[] args) {<cr>}<cr><cr>}
+iabbrev <silent> <buffer> class public class ClassName {<cr><cr><c-i>public ClassName() {<cr>}<cr><cr>}
+iabbrev <silent> <buffer> syso System.out.println();<left><left><c-r>=Eatchar('\s')<cr>
 
 iabbrev <silent> <buffer> pvm public void nameMethod() {<cr>}<up><c-r>=Eatchar('\s')<cr><esc>o
 iabbrev <silent> <buffer> pbm public boolean nameMethod() {<cr>}<up><c-r>=Eatchar('\s')<cr><esc>o
