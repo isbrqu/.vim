@@ -6,5 +6,8 @@ set wildignore+=*/bin/*
 set wildignore+=*/node_modules/*
 set wildignore+=*.session.vim
 set wildignore+=*.view.vim
+set wildignore+=node_modules/*
+set wildignore+=node_modules
+set wildignore+=node_modules/
 
 let g:ctrlp_cmd = 'CtrlP .'
