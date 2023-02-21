@@ -25,3 +25,6 @@
 [submodule "pack/ctrlpvim/start/ctrlp.vim"]
 	path = pack/ctrlpvim/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "pack/wuelnerdotexe/start/vim-astro"]
+	path = pack/wuelnerdotexe/start/vim-astro
+	url = https://github.com/wuelnerdotexe/vim-astro.git
