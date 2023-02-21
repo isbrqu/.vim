@@ -28,3 +28,6 @@
 [submodule "pack/wuelnerdotexe/start/vim-astro"]
 	path = pack/wuelnerdotexe/start/vim-astro
 	url = https://github.com/wuelnerdotexe/vim-astro.git
+[submodule "pack/airblade/start/vim-gitgutter"]
+	path = pack/airblade/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
