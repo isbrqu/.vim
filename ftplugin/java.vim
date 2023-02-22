@@ -61,8 +61,8 @@ iabbrev <silent> <buffer> boola private boolean ;<left><c-r>=Eatchar('\s')<cr>
 iabbrev <silent> <buffer> obja private Object ;<left><c-r>=Eatchar('\s')<cr>
 
 function! s:Run()
-    let l:subcommand = '"javarun ' . g:main_script . '"'
-    let l:command = '"C:/Program Files/Git/bin/bash.exe" -c ' . l:subcommand
+    let l:subcommand = '"java-run ' . g:main_script . '"'
+    let l:command = 'bash -c ' . l:subcommand
     let l:command = 'wt -w 0 new-tab -- ' . l:command
     call system(l:command)
 endfunction
