@@ -3,7 +3,13 @@ set encoding=utf-8
 
 syntax enable
 set showmatch
-colorscheme onehalfdark
+
+if v:version < 802
+    packadd! dracula
+endif
+syntax enable
+colorscheme dracula
+highlight Normal ctermbg=NONE
 
 set backspace=indent,eol,start
 set clipboard=unnamed,unnamedplus
