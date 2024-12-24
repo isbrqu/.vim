@@ -13,9 +13,7 @@ highlight Normal ctermbg=NONE
 
 set backspace=indent,eol,start
 set clipboard=unnamed,unnamedplus
-" set listchars=tab:‣\ ,trail:·,precedes:«,extends:»,eol:¬
 set listchars=tab:→\ ,trail:·,precedes:«,extends:»,eol:¶
-" set listchars=tab:>-,trail:.,precedes:<,extends:>,eol:$
 set fillchars=fold:\ 
 set showmode
 
@@ -30,8 +28,6 @@ set visualbell
 set nowrap
 
 set cursorline
-set colorcolumn=70
-set textwidth=70
 
 set number
 set relativenumber
