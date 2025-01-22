@@ -1,8 +1,8 @@
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
-set autoindent
-set expandtab
-set textwidth&
-set colorcolumn=0
-set nowrap
+" setlocal tabstop=2
+" setlocal softtabstop=2
+" setlocal shiftwidth=2
+" setlocal autoindent
+" setlocal expandtab
+" setlocal textwidth&
+" setlocal colorcolumn=0
+" setlocal nowrap
