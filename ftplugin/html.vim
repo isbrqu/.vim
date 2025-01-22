@@ -5,3 +5,4 @@ set autoindent
 set expandtab
 set textwidth&
 set colorcolumn=0
+set nowrap

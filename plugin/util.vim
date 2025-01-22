@@ -8,9 +8,9 @@ let g:auto_save = 1  " enable AutoSave on Vim startup
 " util script for build
 let g:main_script = ''
 
-function! SetMainScript()
-    let g:main_script = expand('%:p')
-    echo "Main script: " . g:main_script
-endfunction
+" function! SetMainScript()
+"     let g:main_script = expand('%:p')
+"     echo "Main script: " . g:main_script
+" endfunction
 
-nnoremap <silent> <leader>c :call SetMainScript()<cr> 
+" nnoremap <silent> <leader>c :call SetMainScript()<cr> 

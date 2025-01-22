@@ -25,8 +25,6 @@ set t_vb=
 set ttyfast
 set visualbell
 
-set nowrap
-
 set cursorline
 
 set number
