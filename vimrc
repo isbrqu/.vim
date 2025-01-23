@@ -9,6 +9,7 @@ if v:version < 802
 endif
 syntax enable
 colorscheme dracula
+let g:dracula_colorterm = 0
 highlight Normal ctermbg=NONE
 
 set backspace=indent,eol,start
